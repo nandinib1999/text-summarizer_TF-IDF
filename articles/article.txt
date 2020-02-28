@@ -1,0 +1,40 @@
+On the overwhelming wave of tech progress, there is presumably nobody who hasn’t heard about Artificial Intelligence and Machine Learning. As the hottest buzzwords of our age, they restore a strong faith in a more advanced future for almost every realm. And when it comes to the Software Industry, we know how many flaws could be fixed with automation in the QA processes.
+
+AI and ML powers have hit somewhat of an apex and now we have enough reasons for reckoning that they are perfect tools, but does it mean the machine will replace the human? What part will AI play in Functional Test Automation? Here is a comprehensive display.
+
+Every day, QA Engineers stumble upon a plethora of difficulties and waste a lot of time to find a proper solution. When adding new changes, existing code that has already gone through testing may stop working. Each time the development team expands on existing code, they must carry out new tests. Regression testing cycles can grab a long time while undertaking them manually can overwhelm QAs.
+
+Why is it happening? The traditional QA process is based on the method of checking the set of simple tasks that together form the overall project. For doing this, a tester has to go through this way from the smallest elements up to the largest ones. Since the clients are frequently impatient, traditional testing methods fail to keep up with their demands. At the beginning of a project, testing can usually go in parallel with increasing functionality, but the more complex an application becomes, the more challenging it becomes to make sure it has full test coverage.
+
+What is most frustrating is that it checks only specific cases that you have chosen. If a new function is added, the previously created auto-test will still complete successfully, even if the new function does not work. Only research testing (by humans) will be able to detect these changes, but this most often does not occur, since this time is spent on re-performing basic tests, so situations often arise when manual testing checks application’s performance as a whole item, losing details.
+
+What exactly is Artificial Intelligence (AI)? Of course, it’s less about HAL (Heuristically programmed ALgorithmic computer), a sentient computer (or artificial general intelligence) from Stanley Kubrick’s movie 2001: A Space Odyssey, and more about statistics and machine learning AI. More specifically, it represents a computer science realm that highlights the creation of intelligent machines operating and like humans.
+
+Machine Learning (ML), in turn, is developed from the study of pattern recognition and computational learning approach in AI. The main purpose is to make machines learn without being explicitly programmed. This science absorbs tons of complex data and identifies schemes that are predictive. One of the most common and well-used ML-methods is Deep learning that is based on learning data representations. It is also based on neural networks in the human body.
+
+At its core, ML algorithms have three chief types widely used in all realms:
+
+Supervised Learning — We are giving the right training data (input/output combinations) for the algorithm to learn
+Un-supervised learning — We give a bunch of data and see what we can discover
+Reinforced learning — Based on the idea of reward function. Rewarding Good/Bad behavior and developing the algorithm to learn from it.
+If you are a Software Tester, you may already guess what opportunities all these AI-powered approaches can bring to QA process. If so, leave your suggestions in comments below. Meanwhile, here is my list of possible changes.
+
+Accelerating Manual Testing and Overall Processes
+Even the most advanced application development organizations code myriads of test lines: type one line after another, “click here” and “check that”. Obviously, this method has many disadvantages. Creating such tests puzzles developers’ attention. Complete test passing may take several days, and sometimes several weeks. Manual testing cannot maintain such a pace, no matter how hard it tries. Plus, manual functional testing is expensive, both in time and in money.
+
+AI will facilitate such time-wasting problem for all developers, as writing all scripts and analyze large amounts of data sets becomes more faster. AI can handle sorting through log files and so it will save time and enhance correctness in the program tremendously. The possible outcomes will give QA Engineers a complete view of the alterations that they must carry out.
+
+Automation the Testing Process
+The more tests you get — the more labor-intensive and more expensive their support becomes. Furthermore, when the application changes, QA Engineers have to update the test code. And often it turns out that most of the efforts of automation quickly turn into clean maintenance, with a few changes in extra coverage.
+
+AI bots continue to evolve after changes in the code. Since the bots are not fully encoded, they adapt and learn to find new application functions themselves. When the AI identifies modifications, it automatically estimates them to decide whether this is a new functionality or defects of a new release. Thus, hard-coded test scripts are fragile and require manual refinement after each change in the application code, and the AI-powered bots develop themselves throughout the entire process.
+
+Eliminating More Bugs
+QA processes are full of bugs, but isn’t it the essential part of this work? So why eliminating them? It’s clear. There are cases when QA Engineers does everything right, but for some reason, the bug remains unnoticed. When this problem comes on the scene, the tester needs analyzing the causal relationships of the incident. But just imagine how artificial intelligence could help in this situation. AI can find answers to questions like how, where and when in a matter of minutes or even seconds. Therefore, testers can use this information to decide whether coding changes are required to prevent program errors or they simply need to apply some other approaches. Accordingly, AI in the QA scenarios can conduct ongoing analysis of errors.
+
+Reduced Ignored Bugs Probability
+The problem of ignored bugs is very diverse and bears extremely negative consequences. We all know how traditional testing works at this moment. If you do not devote enough attention to data management, then, as a result, you will receive a whole bunch of ignored bugs. But that’s not all, because as a result, you get an unsatisfied customer and spoil the brand’s reputation. And up to this point, this seems not too complicated, but unpleasant dilemma no one could solve. But it continues making testers waste their precious time. But now, we are up to adopt a machine learning approach, which will offer more reliable outcomes than traditional testing does. The time needed to carry out a software testing and look for a bug also turns decreased.
+
+Forecasting Client Requirements
+For any company, it is substantial to find the right approach that will transfer them a notch higher from other competitors. And when it comes to software testing scenarios, the use of forecasting client requirements for these purposes is just something that can modify the whole situation tremendously. In this case, forecasting empowers enterprises to analyze customer data for a more proper understanding of the most recent products and features that they need. Again, all these aspects are easily solved using machine learning.
+Given the pressures of the high-accelerating industry, it’s quite obvious that the new age testing is here! ML and AI are undeniably growing to be significant elements in software testing and QA as well. And all this is for good reason. AI will advance accuracy, give enhanced revenue and lower costs for all QA processes. Henceforth, it improves competitive positioning and customer experience. Most importantly, AI helps identify bugs quicker and faster. The testers can stop worrying about losing their jobs and start focusing on making better policies. There is no reason to fear AI, instead, we should think of possible ways to incorporate it in our work.
