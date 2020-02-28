@@ -9,5 +9,6 @@ This program accepts a text file using cmd argument --filepath and it returns an
 There's one commandline argument that needs to passed while running the script i.e. --filepath. It accepts the path to the txt file which needs to be summarized.
 
 In Anaconda Prompt or CMD, run
-
+'''
 python text_summarizer.py --filepath="articles/article.txt"
+'''
