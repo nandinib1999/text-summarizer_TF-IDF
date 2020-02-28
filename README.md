@@ -1,6 +1,6 @@
 # Extractive Summarization of text using TF-IDF
 <p align='center'>
-  <img arc="https://miro.medium.com/max/1064/1*GIVviyN9Q0cqObcy-q-juQ.png">
+  <img href="https://miro.medium.com/max/1064/1*GIVviyN9Q0cqObcy-q-juQ.png">
 </p>
 
 This program accepts a text file using cmd argument --filepath and it returns an extractive summary of the text. The summary may not be completely accurate but it manages to give a fair idea to the user about the text.
