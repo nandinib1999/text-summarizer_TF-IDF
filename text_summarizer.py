@@ -5,16 +5,17 @@ Created on Wed Oct  2 00:51:12 2019
 @author: agilist
 """
 
-import pandas as pd
-import numpy as np
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk import PorterStemmer
 from nltk.corpus import stopwords 
-import re
-import os
 import math
 from statistics import mean
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--filepath', help="File Path", default="articles/article.txt")
+args = parser.parse_args()  
 
 def frquency_matrix(sentences):
     matrix = {}
@@ -125,7 +126,8 @@ def generate_summary(sentences, scores, threshold):
 
 
 def main():
-    with open('articles/article.txt', encoding="utf8") as f:
+    path = args.filepath
+    with open(path, encoding="utf8") as f:
         text = f.read()
     sentences = sent_tokenize(text)
     num_sent = len(sentences)
@@ -152,9 +154,9 @@ def main():
     #     print(k)
     #     print(v)
     scores = sentence_scores(matrix_tf_idf)
-    for k, v in scores.items():
-        print(k)
-        print(v)
+    # for k, v in scores.items():
+    #     print(k)
+    #     print(v)
     avg_score = find_average_score(scores)
 
     summary = generate_summary(sentences, scores, 0.9*avg_score)
