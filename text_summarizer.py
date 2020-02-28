@@ -125,7 +125,7 @@ def generate_summary(sentences, scores, threshold):
 
 
 def main():
-    with open('article.txt', encoding="utf8") as f:
+    with open('articles/article.txt', encoding="utf8") as f:
         text = f.read()
     sentences = sent_tokenize(text)
     num_sent = len(sentences)
