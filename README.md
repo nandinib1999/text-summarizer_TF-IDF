@@ -12,3 +12,14 @@ In Anaconda Prompt or CMD, run
 ```
 python text_summarizer.py --filepath="articles/article.txt"
 ```
+I have deployed this project as an API on Heroku. 
+```
+https://summarizertxt.herokuapp.com/summarize
+```
+The text to be summarized can be sent as a POST request. An example using Python can be found below:
+```
+import requests
+url = "https://summarizertxt.herokuapp.com/summarize"
+data = {"text":text}
+x = requests.post(url, data).json()
+```
